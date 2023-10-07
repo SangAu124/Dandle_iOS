@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD8AD4A2ACCEACA00110388 /* DandleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD492ACCEACA00110388 /* DandleApp.swift */; };
+		EFD8AD4C2ACCEACA00110388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD4B2ACCEACA00110388 /* ContentView.swift */; };
+		EFD8AD4E2ACCEACB00110388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */; };
+		EFD8AD512ACCEACB00110388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD8AD502ACCEACB00110388 /* Preview Assets.xcassets */; };
+		EFD8AD5B2ACCEACB00110388 /* DandleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD5A2ACCEACB00110388 /* DandleTests.swift */; };
+		EFD8AD652ACCEACB00110388 /* DandleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD642ACCEACB00110388 /* DandleUITests.swift */; };
+		EFD8AD672ACCEACB00110388 /* DandleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD662ACCEACB00110388 /* DandleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD8AD572ACCEACB00110388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD8AD3E2ACCEACA00110388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD8AD452ACCEACA00110388;
+			remoteInfo = Dandle;
+		};
+		EFD8AD612ACCEACB00110388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD8AD3E2ACCEACA00110388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD8AD452ACCEACA00110388;
+			remoteInfo = Dandle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD8AD462ACCEACA00110388 /* Dandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8AD492ACCEACA00110388 /* DandleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandleApp.swift; sourceTree = "<group>"; };
+		EFD8AD4B2ACCEACA00110388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD8AD502ACCEACB00110388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFD8AD562ACCEACB00110388 /* DandleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DandleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8AD5A2ACCEACB00110388 /* DandleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandleTests.swift; sourceTree = "<group>"; };
+		EFD8AD602ACCEACB00110388 /* DandleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DandleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD8AD642ACCEACB00110388 /* DandleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandleUITests.swift; sourceTree = "<group>"; };
+		EFD8AD662ACCEACB00110388 /* DandleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD8AD432ACCEACA00110388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8AD532ACCEACB00110388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8AD5D2ACCEACB00110388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD8AD3D2ACCEACA00110388 = {
+			isa = PBXGroup;
+			children = (
+				EFD8AD482ACCEACA00110388 /* Dandle */,
+				EFD8AD592ACCEACB00110388 /* DandleTests */,
+				EFD8AD632ACCEACB00110388 /* DandleUITests */,
+				EFD8AD472ACCEACA00110388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD8AD472ACCEACA00110388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8AD462ACCEACA00110388 /* Dandle.app */,
+				EFD8AD562ACCEACB00110388 /* DandleTests.xctest */,
+				EFD8AD602ACCEACB00110388 /* DandleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD8AD482ACCEACA00110388 /* Dandle */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8AD492ACCEACA00110388 /* DandleApp.swift */,
+				EFD8AD4B2ACCEACA00110388 /* ContentView.swift */,
+				EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */,
+				EFD8AD4F2ACCEACB00110388 /* Preview Content */,
+			);
+			path = Dandle;
+			sourceTree = "<group>";
+		};
+		EFD8AD4F2ACCEACB00110388 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8AD502ACCEACB00110388 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFD8AD592ACCEACB00110388 /* DandleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8AD5A2ACCEACB00110388 /* DandleTests.swift */,
+			);
+			path = DandleTests;
+			sourceTree = "<group>";
+		};
+		EFD8AD632ACCEACB00110388 /* DandleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD8AD642ACCEACB00110388 /* DandleUITests.swift */,
+				EFD8AD662ACCEACB00110388 /* DandleUITestsLaunchTests.swift */,
+			);
+			path = DandleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD8AD452ACCEACA00110388 /* Dandle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8AD6A2ACCEACB00110388 /* Build configuration list for PBXNativeTarget "Dandle" */;
+			buildPhases = (
+				EFD8AD422ACCEACA00110388 /* Sources */,
+				EFD8AD432ACCEACA00110388 /* Frameworks */,
+				EFD8AD442ACCEACA00110388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dandle;
+			productName = Dandle;
+			productReference = EFD8AD462ACCEACA00110388 /* Dandle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD8AD552ACCEACB00110388 /* DandleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8AD6D2ACCEACB00110388 /* Build configuration list for PBXNativeTarget "DandleTests" */;
+			buildPhases = (
+				EFD8AD522ACCEACB00110388 /* Sources */,
+				EFD8AD532ACCEACB00110388 /* Frameworks */,
+				EFD8AD542ACCEACB00110388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD8AD582ACCEACB00110388 /* PBXTargetDependency */,
+			);
+			name = DandleTests;
+			productName = DandleTests;
+			productReference = EFD8AD562ACCEACB00110388 /* DandleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD8AD5F2ACCEACB00110388 /* DandleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD8AD702ACCEACB00110388 /* Build configuration list for PBXNativeTarget "DandleUITests" */;
+			buildPhases = (
+				EFD8AD5C2ACCEACB00110388 /* Sources */,
+				EFD8AD5D2ACCEACB00110388 /* Frameworks */,
+				EFD8AD5E2ACCEACB00110388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD8AD622ACCEACB00110388 /* PBXTargetDependency */,
+			);
+			name = DandleUITests;
+			productName = DandleUITests;
+			productReference = EFD8AD602ACCEACB00110388 /* DandleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD8AD3E2ACCEACA00110388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EFD8AD452ACCEACA00110388 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EFD8AD552ACCEACB00110388 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EFD8AD452ACCEACA00110388;
+					};
+					EFD8AD5F2ACCEACB00110388 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EFD8AD452ACCEACA00110388;
+					};
+				};
+			};
+			buildConfigurationList = EFD8AD412ACCEACA00110388 /* Build configuration list for PBXProject "Dandle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD8AD3D2ACCEACA00110388;
+			productRefGroup = EFD8AD472ACCEACA00110388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD8AD452ACCEACA00110388 /* Dandle */,
+				EFD8AD552ACCEACB00110388 /* DandleTests */,
+				EFD8AD5F2ACCEACB00110388 /* DandleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD8AD442ACCEACA00110388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8AD512ACCEACB00110388 /* Preview Assets.xcassets in Resources */,
+				EFD8AD4E2ACCEACB00110388 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8AD542ACCEACB00110388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8AD5E2ACCEACB00110388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD8AD422ACCEACA00110388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8AD4C2ACCEACA00110388 /* ContentView.swift in Sources */,
+				EFD8AD4A2ACCEACA00110388 /* DandleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8AD522ACCEACB00110388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8AD5B2ACCEACB00110388 /* DandleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD8AD5C2ACCEACB00110388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8AD672ACCEACB00110388 /* DandleUITestsLaunchTests.swift in Sources */,
+				EFD8AD652ACCEACB00110388 /* DandleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD8AD582ACCEACB00110388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD8AD452ACCEACA00110388 /* Dandle */;
+			targetProxy = EFD8AD572ACCEACB00110388 /* PBXContainerItemProxy */;
+		};
+		EFD8AD622ACCEACB00110388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD8AD452ACCEACA00110388 /* Dandle */;
+			targetProxy = EFD8AD612ACCEACB00110388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFD8AD682ACCEACB00110388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD8AD692ACCEACB00110388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD8AD6B2ACCEACB00110388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dandle/Preview Content\"";
+				DEVELOPMENT_TEAM = 96J23WA6A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangau.Dandle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD8AD6C2ACCEACB00110388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dandle/Preview Content\"";
+				DEVELOPMENT_TEAM = 96J23WA6A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangau.Dandle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFD8AD6E2ACCEACB00110388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MA35V5PR3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangau.DandleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dandle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dandle";
+			};
+			name = Debug;
+		};
+		EFD8AD6F2ACCEACB00110388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MA35V5PR3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangau.DandleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dandle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dandle";
+			};
+			name = Release;
+		};
+		EFD8AD712ACCEACB00110388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MA35V5PR3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangau.DandleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dandle;
+			};
+			name = Debug;
+		};
+		EFD8AD722ACCEACB00110388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MA35V5PR3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangau.DandleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dandle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD8AD412ACCEACA00110388 /* Build configuration list for PBXProject "Dandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8AD682ACCEACB00110388 /* Debug */,
+				EFD8AD692ACCEACB00110388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8AD6A2ACCEACB00110388 /* Build configuration list for PBXNativeTarget "Dandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8AD6B2ACCEACB00110388 /* Debug */,
+				EFD8AD6C2ACCEACB00110388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8AD6D2ACCEACB00110388 /* Build configuration list for PBXNativeTarget "DandleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8AD6E2ACCEACB00110388 /* Debug */,
+				EFD8AD6F2ACCEACB00110388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD8AD702ACCEACB00110388 /* Build configuration list for PBXNativeTarget "DandleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD8AD712ACCEACB00110388 /* Debug */,
+				EFD8AD722ACCEACB00110388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD8AD3E2ACCEACA00110388 /* Project object */;
+}

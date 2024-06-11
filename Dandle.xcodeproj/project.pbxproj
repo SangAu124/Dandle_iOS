@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D604D9E2C18C34400E93C60 /* Reel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604D9D2C18C34400E93C60 /* Reel.swift */; };
+		6D604DA62C18C4C500E93C60 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604DA52C18C4C500E93C60 /* Like.swift */; };
+		6D604DA92C18C59500E93C60 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604DA82C18C59500E93C60 /* Home.swift */; };
+		6D604DAB2C18C7EE00E93C60 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604DAA2C18C7EE00E93C60 /* ReelView.swift */; };
+		6D604DAD2C18C83F00E93C60 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604DAC2C18C83F00E93C60 /* CustomVideoPlayer.swift */; };
+		6D604DB12C18D46600E93C60 /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D604DB02C18D46600E93C60 /* OffsetKey.swift */; };
+		6D604DB22C18D80800E93C60 /* reel1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA12C18C46100E93C60 /* reel1.mp4 */; };
+		6D604DB32C18D80800E93C60 /* reel2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA42C18C46100E93C60 /* reel2.mp4 */; };
+		6D604DB42C18D80800E93C60 /* reel3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA22C18C46100E93C60 /* reel3.mp4 */; };
+		6D604DB52C18D80800E93C60 /* reel4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA32C18C46100E93C60 /* reel4.mp4 */; };
+		6D604DB62C18D80800E93C60 /* reel5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA02C18C46100E93C60 /* reel5.mp4 */; };
 		EFD8AD4A2ACCEACA00110388 /* DandleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD492ACCEACA00110388 /* DandleApp.swift */; };
 		EFD8AD4C2ACCEACA00110388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD4B2ACCEACA00110388 /* ContentView.swift */; };
 		EFD8AD4E2ACCEACB00110388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */; };
@@ -34,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D604D9D2C18C34400E93C60 /* Reel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reel.swift; sourceTree = "<group>"; };
+		6D604DA02C18C46100E93C60 /* reel5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = reel5.mp4; path = ../../../../Downloads/reel5.mp4; sourceTree = "<group>"; };
+		6D604DA12C18C46100E93C60 /* reel1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = reel1.mp4; path = ../../../../Downloads/reel1.mp4; sourceTree = "<group>"; };
+		6D604DA22C18C46100E93C60 /* reel3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = reel3.mp4; path = ../../../../Downloads/reel3.mp4; sourceTree = "<group>"; };
+		6D604DA32C18C46100E93C60 /* reel4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = reel4.mp4; path = ../../../../Downloads/reel4.mp4; sourceTree = "<group>"; };
+		6D604DA42C18C46100E93C60 /* reel2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = reel2.mp4; path = ../../../../Downloads/reel2.mp4; sourceTree = "<group>"; };
+		6D604DA52C18C4C500E93C60 /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		6D604DA82C18C59500E93C60 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6D604DAA2C18C7EE00E93C60 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		6D604DAC2C18C83F00E93C60 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		6D604DAE2C18CB8500E93C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6D604DB02C18D46600E93C60 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
 		EFD8AD462ACCEACA00110388 /* Dandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD8AD492ACCEACA00110388 /* DandleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandleApp.swift; sourceTree = "<group>"; };
 		EFD8AD4B2ACCEACA00110388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,9 +94,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D604D9C2C18C33A00E93C60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D604D9D2C18C34400E93C60 /* Reel.swift */,
+				6D604DA52C18C4C500E93C60 /* Like.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D604D9F2C18C45100E93C60 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				6D604DA12C18C46100E93C60 /* reel1.mp4 */,
+				6D604DA42C18C46100E93C60 /* reel2.mp4 */,
+				6D604DA22C18C46100E93C60 /* reel3.mp4 */,
+				6D604DA32C18C46100E93C60 /* reel4.mp4 */,
+				6D604DA02C18C46100E93C60 /* reel5.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		6D604DA72C18C58E00E93C60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D604DA82C18C59500E93C60 /* Home.swift */,
+				6D604DAA2C18C7EE00E93C60 /* ReelView.swift */,
+				6D604DAC2C18C83F00E93C60 /* CustomVideoPlayer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D604DAF2C18D45300E93C60 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				6D604DB02C18D46600E93C60 /* OffsetKey.swift */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
 		EFD8AD3D2ACCEACA00110388 = {
 			isa = PBXGroup;
 			children = (
+				6D604D9F2C18C45100E93C60 /* Videos */,
 				EFD8AD482ACCEACA00110388 /* Dandle */,
 				EFD8AD592ACCEACB00110388 /* DandleTests */,
 				EFD8AD632ACCEACB00110388 /* DandleUITests */,
@@ -94,6 +157,10 @@
 		EFD8AD482ACCEACA00110388 /* Dandle */ = {
 			isa = PBXGroup;
 			children = (
+				6D604DAF2C18D45300E93C60 /* Keys */,
+				6D604DAE2C18CB8500E93C60 /* Info.plist */,
+				6D604DA72C18C58E00E93C60 /* View */,
+				6D604D9C2C18C33A00E93C60 /* Model */,
 				EFD8AD492ACCEACA00110388 /* DandleApp.swift */,
 				EFD8AD4B2ACCEACA00110388 /* ContentView.swift */,
 				EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */,
@@ -231,6 +298,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D604DB22C18D80800E93C60 /* reel1.mp4 in Resources */,
+				6D604DB32C18D80800E93C60 /* reel2.mp4 in Resources */,
+				6D604DB42C18D80800E93C60 /* reel3.mp4 in Resources */,
+				6D604DB52C18D80800E93C60 /* reel4.mp4 in Resources */,
+				6D604DB62C18D80800E93C60 /* reel5.mp4 in Resources */,
 				EFD8AD512ACCEACB00110388 /* Preview Assets.xcassets in Resources */,
 				EFD8AD4E2ACCEACB00110388 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +329,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D604DAD2C18C83F00E93C60 /* CustomVideoPlayer.swift in Sources */,
+				6D604DAB2C18C7EE00E93C60 /* ReelView.swift in Sources */,
+				6D604DB12C18D46600E93C60 /* OffsetKey.swift in Sources */,
 				EFD8AD4C2ACCEACA00110388 /* ContentView.swift in Sources */,
+				6D604D9E2C18C34400E93C60 /* Reel.swift in Sources */,
+				6D604DA92C18C59500E93C60 /* Home.swift in Sources */,
+				6D604DA62C18C4C500E93C60 /* Like.swift in Sources */,
 				EFD8AD4A2ACCEACA00110388 /* DandleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,9 +495,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dandle/Preview Content\"";
-				DEVELOPMENT_TEAM = 96J23WA6A6;
+				DEVELOPMENT_TEAM = QK59NUDY27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dandle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,9 +525,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dandle/Preview Content\"";
-				DEVELOPMENT_TEAM = 96J23WA6A6;
+				DEVELOPMENT_TEAM = QK59NUDY27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dandle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

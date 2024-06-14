@@ -356,6 +356,7 @@
 			mainGroup = EFD8AD3D2ACCEACA00110388;
 			packageReferences = (
 				5800CE182C1BCCE100A71D6F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				5800CE252C1BD0F800A71D6F /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = EFD8AD472ACCEACA00110388 /* Products */;
 			projectDirPath = "";
@@ -747,6 +748,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.11.1;
+			};
+		};
+		5800CE252C1BD0F800A71D6F /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

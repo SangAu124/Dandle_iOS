@@ -20,6 +20,12 @@
 		6D604DB42C18D80800E93C60 /* reel3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA22C18C46100E93C60 /* reel3.mp4 */; };
 		6D604DB52C18D80800E93C60 /* reel4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA32C18C46100E93C60 /* reel4.mp4 */; };
 		6D604DB62C18D80800E93C60 /* reel5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D604DA02C18C46100E93C60 /* reel5.mp4 */; };
+		6D9965C12C1C5E0D009F2DB0 /* VideoDiaryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9965C02C1C5E0D009F2DB0 /* VideoDiaryRepository.swift */; };
+		6D9965C42C1C6041009F2DB0 /* VideoDiaryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9965C32C1C6041009F2DB0 /* VideoDiaryAPI.swift */; };
+		6D9965C62C1C615B009F2DB0 /* VideoDiaryRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9965C52C1C615B009F2DB0 /* VideoDiaryRemote.swift */; };
+		6D9965C92C1C61BF009F2DB0 /* VideoDiaryRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9965C82C1C61BF009F2DB0 /* VideoDiaryRepositoryImpl.swift */; };
+		6D9965CC2C1C622C009F2DB0 /* DanDDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9965CB2C1C622C009F2DB0 /* DanDDataSource.swift */; };
+		6D9965CE2C1C6261009F2DB0 /* VideoDiaryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9965CD2C1C6261009F2DB0 /* VideoDiaryDataSource.swift */; };
 		EFD8AD4A2ACCEACA00110388 /* DandleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD492ACCEACA00110388 /* DandleApp.swift */; };
 		EFD8AD4C2ACCEACA00110388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD8AD4B2ACCEACA00110388 /* ContentView.swift */; };
 		EFD8AD4E2ACCEACB00110388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */; };
@@ -60,6 +66,12 @@
 		6D604DAC2C18C83F00E93C60 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 		6D604DAE2C18CB8500E93C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D604DB02C18D46600E93C60 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		6D9965C02C1C5E0D009F2DB0 /* VideoDiaryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDiaryRepository.swift; sourceTree = "<group>"; };
+		6D9965C32C1C6041009F2DB0 /* VideoDiaryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDiaryAPI.swift; sourceTree = "<group>"; };
+		6D9965C52C1C615B009F2DB0 /* VideoDiaryRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDiaryRemote.swift; sourceTree = "<group>"; };
+		6D9965C82C1C61BF009F2DB0 /* VideoDiaryRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDiaryRepositoryImpl.swift; sourceTree = "<group>"; };
+		6D9965CB2C1C622C009F2DB0 /* DanDDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanDDataSource.swift; sourceTree = "<group>"; };
+		6D9965CD2C1C6261009F2DB0 /* VideoDiaryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDiaryDataSource.swift; sourceTree = "<group>"; };
 		EFD8AD462ACCEACA00110388 /* Dandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD8AD492ACCEACA00110388 /* DandleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DandleApp.swift; sourceTree = "<group>"; };
 		EFD8AD4B2ACCEACA00110388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +124,7 @@
 		5800CE1C2C1BCD9600A71D6F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EFD8AD4F2ACCEACB00110388 /* Preview Content */,
 				EFD8AD4D2ACCEACB00110388 /* Assets.xcassets */,
 				6D604DAE2C18CB8500E93C60 /* Info.plist */,
 			);
@@ -139,6 +152,8 @@
 		5800CE1F2C1BCDF800A71D6F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				6D9965CA2C1C6204009F2DB0 /* DataSource */,
+				6D9965C72C1C61A1009F2DB0 /* RepositoryImpl */,
 				5800CE212C1BCEF600A71D6F /* Network */,
 			);
 			path = Data;
@@ -147,6 +162,8 @@
 		5800CE202C1BCDFD00A71D6F /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				6D9965CF2C1C80B7009F2DB0 /* UseCase */,
+				6D9965BF2C1C5D76009F2DB0 /* Repository */,
 				6D604D9C2C18C33A00E93C60 /* Model */,
 			);
 			path = Domain;
@@ -155,6 +172,7 @@
 		5800CE212C1BCEF600A71D6F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				6D9965C22C1C6006009F2DB0 /* API */,
 				5800CE222C1BCF9B00A71D6F /* Remote */,
 			);
 			path = Network;
@@ -164,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				5800CE232C1BCFBD00A71D6F /* DanDRemote.swift */,
+				6D9965C52C1C615B009F2DB0 /* VideoDiaryRemote.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -207,6 +226,46 @@
 			path = Keys;
 			sourceTree = "<group>";
 		};
+		6D9965BF2C1C5D76009F2DB0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				6D9965C02C1C5E0D009F2DB0 /* VideoDiaryRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		6D9965C22C1C6006009F2DB0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6D9965C32C1C6041009F2DB0 /* VideoDiaryAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6D9965C72C1C61A1009F2DB0 /* RepositoryImpl */ = {
+			isa = PBXGroup;
+			children = (
+				6D9965C82C1C61BF009F2DB0 /* VideoDiaryRepositoryImpl.swift */,
+			);
+			path = RepositoryImpl;
+			sourceTree = "<group>";
+		};
+		6D9965CA2C1C6204009F2DB0 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				6D9965CB2C1C622C009F2DB0 /* DanDDataSource.swift */,
+				6D9965CD2C1C6261009F2DB0 /* VideoDiaryDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		6D9965CF2C1C80B7009F2DB0 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 		EFD8AD3D2ACCEACA00110388 = {
 			isa = PBXGroup;
 			children = (
@@ -231,9 +290,8 @@
 		EFD8AD482ACCEACA00110388 /* Dandle */ = {
 			isa = PBXGroup;
 			children = (
-				5800CE1C2C1BCD9600A71D6F /* Resource */,
 				5800CE1B2C1BCD8C00A71D6F /* Source */,
-				EFD8AD4F2ACCEACB00110388 /* Preview Content */,
+				5800CE1C2C1BCD9600A71D6F /* Resource */,
 			);
 			path = Dandle;
 			sourceTree = "<group>";
@@ -330,7 +388,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					EFD8AD452ACCEACA00110388 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -405,15 +463,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9965C42C1C6041009F2DB0 /* VideoDiaryAPI.swift in Sources */,
+				6D9965C92C1C61BF009F2DB0 /* VideoDiaryRepositoryImpl.swift in Sources */,
 				6D604DAD2C18C83F00E93C60 /* CustomVideoPlayer.swift in Sources */,
 				6D604DAB2C18C7EE00E93C60 /* ReelView.swift in Sources */,
 				6D604DB12C18D46600E93C60 /* OffsetKey.swift in Sources */,
+				6D9965C12C1C5E0D009F2DB0 /* VideoDiaryRepository.swift in Sources */,
+				6D9965CE2C1C6261009F2DB0 /* VideoDiaryDataSource.swift in Sources */,
 				EFD8AD4C2ACCEACA00110388 /* ContentView.swift in Sources */,
 				6D604D9E2C18C34400E93C60 /* Reel.swift in Sources */,
 				6D604DA92C18C59500E93C60 /* Home.swift in Sources */,
 				6D604DA62C18C4C500E93C60 /* Like.swift in Sources */,
+				6D9965C62C1C615B009F2DB0 /* VideoDiaryRemote.swift in Sources */,
 				5800CE242C1BCFBD00A71D6F /* DanDRemote.swift in Sources */,
 				EFD8AD4A2ACCEACA00110388 /* DandleApp.swift in Sources */,
+				6D9965CC2C1C622C009F2DB0 /* DanDDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +550,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -546,6 +611,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -576,6 +642,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dandle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -606,6 +673,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dandle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
